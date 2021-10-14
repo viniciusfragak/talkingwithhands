@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <titlle>Say Hello</titlle>
+        <link rel="stylesheet" href="{{
+        url_for('static', filename='css/main.css')}}">
+    </head>
+    <body>
+        <img src="https://barelyablog.com/wp-content/uploads/2011/12/talk-to-the-hand.jpg">
+        <br>
+        <form action="greet" method="post">
+            {% for message in get_flashed_messages()%}
+                <p> {{message}} </p>
+            {% endfor %}
+            <br>
+            <input type="text" name="name_input">
+            <br>
+            <input type="submit" value="GREET" id="greet">
+        </form>
+    </body>
+</html>
