@@ -162,7 +162,7 @@ pyOpenSSL
 pyparsing 
 pyreadline==2.1
 pyrsistent 
-PySocks @
+PySocks==1.7.1
 pytest==6.2.3
 python-dateutil 
 python-jsonrpc-server s
