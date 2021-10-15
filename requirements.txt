@@ -165,7 +165,7 @@ pyrsistent
 PySocks==1.7.1
 pytest==6.2.3
 python-dateutil 
-python-jsonrpc-server s
+python-jsonrpc-server==4.0.2
 python-language-server 
 pytz 
 PyWavelets 
